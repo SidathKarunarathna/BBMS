@@ -120,6 +120,10 @@ namespace BBMS
         {
             btn_login.BackColor = Color.Transparent;
             btn_login.ForeColor = Color.White;
+
+           MainDash obj1 = new MainDash();
+            obj1.Show();
+            this.Hide();
         }
 
         private void btn_login_MouseEnter(object sender, EventArgs e)
