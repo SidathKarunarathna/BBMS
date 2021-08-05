@@ -33,8 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +50,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChildForms\Blood Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Blood Stock.Designer.cs">
+      <DependentUpon>Blood Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Donations Campaigns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Donations Campaigns.Designer.cs">
+      <DependentUpon>Donations Campaigns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Donations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Donations.Designer.cs">
+      <DependentUpon>Donations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Donor Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Donor Registration.Designer.cs">
+      <DependentUpon>Donor Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Donors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Donors.Designer.cs">
+      <DependentUpon>Donors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Pending Requests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Pending Requests.Designer.cs">
+      <DependentUpon>Pending Requests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\User Registrations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\User Registrations.Designer.cs">
+      <DependentUpon>User Registrations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainDash.Designer.cs">
+      <DependentUpon>MainDash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +106,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChildForms\Blood Stock.resx">
+      <DependentUpon>Blood Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Donations Campaigns.resx">
+      <DependentUpon>Donations Campaigns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Donations.resx">
+      <DependentUpon>Donations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Donor Registration.resx">
+      <DependentUpon>Donor Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Donors.resx">
+      <DependentUpon>Donors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Pending Requests.resx">
+      <DependentUpon>Pending Requests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\User Registrations.resx">
+      <DependentUpon>User Registrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDash.resx">
+      <DependentUpon>MainDash.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +143,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -97,6 +174,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\password_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26842 [Converted].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_48px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
