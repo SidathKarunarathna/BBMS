@@ -70,5 +70,15 @@ namespace BBMS.ChildForms
                 txtAge.Text = intAge.ToString("0");
             }
         }
+
+        private void Donor_Registration_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddressLine1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

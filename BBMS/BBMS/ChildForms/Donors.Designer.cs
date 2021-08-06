@@ -47,9 +47,10 @@ namespace BBMS.ChildForms
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.label2.Location = new System.Drawing.Point(74, 68);
+            this.label2.Location = new System.Drawing.Point(99, 84);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
+            this.label2.Size = new System.Drawing.Size(122, 25);
             this.label2.TabIndex = 7;
             this.label2.Text = "Blood Type";
             // 
@@ -66,10 +67,11 @@ namespace BBMS.ChildForms
             "AB-",
             "O+",
             "O-"});
-            this.DropDownBlood.Location = new System.Drawing.Point(191, 66);
-            this.DropDownBlood.MinimumSize = new System.Drawing.Size(165, 0);
+            this.DropDownBlood.Location = new System.Drawing.Point(255, 81);
+            this.DropDownBlood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DropDownBlood.MinimumSize = new System.Drawing.Size(219, 0);
             this.DropDownBlood.Name = "DropDownBlood";
-            this.DropDownBlood.Size = new System.Drawing.Size(200, 26);
+            this.DropDownBlood.Size = new System.Drawing.Size(265, 32);
             this.DropDownBlood.TabIndex = 9;
             // 
             // txtCity
@@ -77,10 +79,11 @@ namespace BBMS.ChildForms
             this.txtCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCity.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtCity.Location = new System.Drawing.Point(567, 68);
-            this.txtCity.MinimumSize = new System.Drawing.Size(250, 32);
+            this.txtCity.Location = new System.Drawing.Point(756, 84);
+            this.txtCity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCity.MinimumSize = new System.Drawing.Size(333, 32);
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(250, 32);
+            this.txtCity.Size = new System.Drawing.Size(333, 23);
             this.txtCity.TabIndex = 10;
             // 
             // label1
@@ -89,9 +92,10 @@ namespace BBMS.ChildForms
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.label1.Location = new System.Drawing.Point(493, 68);
+            this.label1.Location = new System.Drawing.Point(657, 84);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 20);
+            this.label1.Size = new System.Drawing.Size(50, 25);
             this.label1.TabIndex = 11;
             this.label1.Text = "City";
             // 
@@ -99,18 +103,20 @@ namespace BBMS.ChildForms
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.panel2.Location = new System.Drawing.Point(565, 87);
+            this.panel2.Location = new System.Drawing.Point(753, 107);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 2);
+            this.panel2.Size = new System.Drawing.Size(267, 2);
             this.panel2.TabIndex = 9;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.panel3.Location = new System.Drawing.Point(1057, 91);
+            this.panel3.Location = new System.Drawing.Point(1409, 112);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 2);
+            this.panel3.Size = new System.Drawing.Size(267, 2);
             this.panel3.TabIndex = 10;
             // 
             // label3
@@ -119,9 +125,10 @@ namespace BBMS.ChildForms
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.label3.Location = new System.Drawing.Point(869, 65);
+            this.label3.Location = new System.Drawing.Point(1159, 80);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 20);
+            this.label3.Size = new System.Drawing.Size(191, 25);
             this.label3.TabIndex = 12;
             this.label3.Text = "Last Donated Date";
             // 
@@ -129,9 +136,10 @@ namespace BBMS.ChildForms
             // 
             this.date.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.date.Location = new System.Drawing.Point(1057, 64);
+            this.date.Location = new System.Drawing.Point(1409, 79);
+            this.date.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(200, 26);
+            this.date.Size = new System.Drawing.Size(265, 30);
             this.date.TabIndex = 13;
             // 
             // dataGridView
@@ -139,17 +147,19 @@ namespace BBMS.ChildForms
             this.dataGridView.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(78, 120);
+            this.dataGridView.Location = new System.Drawing.Point(104, 148);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(1012, 318);
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.Size = new System.Drawing.Size(1349, 391);
             this.dataGridView.TabIndex = 14;
             // 
             // Donors
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ClientSize = new System.Drawing.Size(1102, 640);
+            this.ClientSize = new System.Drawing.Size(1470, 960);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.date);
             this.Controls.Add(this.label3);
@@ -160,7 +170,7 @@ namespace BBMS.ChildForms
             this.Controls.Add(this.DropDownBlood);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Donors";
             this.Text = "Donors";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
