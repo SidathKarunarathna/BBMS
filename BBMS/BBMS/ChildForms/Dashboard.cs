@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace BBMS.ChildForms
 {
-    public partial class Blood_Stock : Form
+    public partial class Dashboard : Form
     {
-        public Blood_Stock()
+        public Dashboard()
         {
             InitializeComponent();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
