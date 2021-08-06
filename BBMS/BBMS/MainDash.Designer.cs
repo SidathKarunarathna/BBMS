@@ -56,9 +56,10 @@ namespace BBMS
             // desktoppanel
             // 
             this.desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.desktoppanel.Location = new System.Drawing.Point(450, 120);
+            this.desktoppanel.Location = new System.Drawing.Point(338, 98);
+            this.desktoppanel.Margin = new System.Windows.Forms.Padding(2);
             this.desktoppanel.Name = "desktoppanel";
-            this.desktoppanel.Size = new System.Drawing.Size(1470, 960);
+            this.desktoppanel.Size = new System.Drawing.Size(702, 542);
             this.desktoppanel.TabIndex = 2;
             // 
             // TitleBar
@@ -68,9 +69,10 @@ namespace BBMS
             this.TitleBar.Controls.Add(this.TitleText);
             this.TitleBar.Controls.Add(this.iconcurrent);
             this.TitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TitleBar.Location = new System.Drawing.Point(450, 0);
+            this.TitleBar.Location = new System.Drawing.Point(338, 0);
+            this.TitleBar.Margin = new System.Windows.Forms.Padding(2);
             this.TitleBar.Name = "TitleBar";
-            this.TitleBar.Size = new System.Drawing.Size(1470, 120);
+            this.TitleBar.Size = new System.Drawing.Size(702, 98);
             this.TitleBar.TabIndex = 1;
             // 
             // iconclose
@@ -80,9 +82,10 @@ namespace BBMS
             this.iconclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconclose.ForeColor = System.Drawing.Color.Transparent;
             this.iconclose.Image = global::BBMS.Properties.Resources.delete_48px;
-            this.iconclose.Location = new System.Drawing.Point(2030, 0);
+            this.iconclose.Location = new System.Drawing.Point(1522, 0);
+            this.iconclose.Margin = new System.Windows.Forms.Padding(2);
             this.iconclose.Name = "iconclose";
-            this.iconclose.Size = new System.Drawing.Size(40, 40);
+            this.iconclose.Size = new System.Drawing.Size(30, 32);
             this.iconclose.TabIndex = 3;
             this.iconclose.UseVisualStyleBackColor = false;
             this.iconclose.Click += new System.EventHandler(this.iconclose_Click_1);
@@ -91,11 +94,12 @@ namespace BBMS
             // 
             this.TitleText.AutoSize = true;
             this.TitleText.BackColor = System.Drawing.Color.Transparent;
-            this.TitleText.Font = new System.Drawing.Font("Poppins", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleText.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.TitleText.Location = new System.Drawing.Point(104, 45);
+            this.TitleText.Location = new System.Drawing.Point(78, 37);
+            this.TitleText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TitleText.Name = "TitleText";
-            this.TitleText.Size = new System.Drawing.Size(164, 44);
+            this.TitleText.Size = new System.Drawing.Size(117, 25);
             this.TitleText.TabIndex = 2;
             this.TitleText.Text = "Dashboard";
             // 
@@ -106,10 +110,11 @@ namespace BBMS
             this.iconcurrent.IconChar = FontAwesome.Sharp.IconChar.Hospital;
             this.iconcurrent.IconColor = System.Drawing.Color.Red;
             this.iconcurrent.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconcurrent.IconSize = 60;
-            this.iconcurrent.Location = new System.Drawing.Point(23, 40);
+            this.iconcurrent.IconSize = 45;
+            this.iconcurrent.Location = new System.Drawing.Point(17, 32);
+            this.iconcurrent.Margin = new System.Windows.Forms.Padding(2);
             this.iconcurrent.Name = "iconcurrent";
-            this.iconcurrent.Size = new System.Drawing.Size(60, 60);
+            this.iconcurrent.Size = new System.Drawing.Size(45, 49);
             this.iconcurrent.TabIndex = 1;
             this.iconcurrent.TabStop = false;
             // 
@@ -128,8 +133,9 @@ namespace BBMS
             this.panelMenue.Controls.Add(this.panel2);
             this.panelMenue.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenue.Location = new System.Drawing.Point(0, 0);
+            this.panelMenue.Margin = new System.Windows.Forms.Padding(2);
             this.panelMenue.Name = "panelMenue";
-            this.panelMenue.Size = new System.Drawing.Size(450, 1080);
+            this.panelMenue.Size = new System.Drawing.Size(338, 640);
             this.panelMenue.TabIndex = 0;
             // 
             // iconCampaign
@@ -138,16 +144,17 @@ namespace BBMS
             this.iconCampaign.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconCampaign.FlatAppearance.BorderSize = 0;
             this.iconCampaign.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconCampaign.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconCampaign.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconCampaign.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconCampaign.IconChar = FontAwesome.Sharp.IconChar.HospitalAlt;
             this.iconCampaign.IconColor = System.Drawing.Color.White;
             this.iconCampaign.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconCampaign.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconCampaign.Location = new System.Drawing.Point(0, 797);
+            this.iconCampaign.Location = new System.Drawing.Point(0, 647);
+            this.iconCampaign.Margin = new System.Windows.Forms.Padding(2);
             this.iconCampaign.Name = "iconCampaign";
-            this.iconCampaign.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconCampaign.Size = new System.Drawing.Size(450, 90);
+            this.iconCampaign.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconCampaign.Size = new System.Drawing.Size(338, 73);
             this.iconCampaign.TabIndex = 8;
             this.iconCampaign.Text = "Donations Campaigns";
             this.iconCampaign.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,16 +168,17 @@ namespace BBMS
             this.iconUserRegistration.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconUserRegistration.FlatAppearance.BorderSize = 0;
             this.iconUserRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconUserRegistration.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconUserRegistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconUserRegistration.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconUserRegistration.IconChar = FontAwesome.Sharp.IconChar.UserCircle;
             this.iconUserRegistration.IconColor = System.Drawing.Color.White;
             this.iconUserRegistration.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconUserRegistration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconUserRegistration.Location = new System.Drawing.Point(0, 707);
+            this.iconUserRegistration.Location = new System.Drawing.Point(0, 574);
+            this.iconUserRegistration.Margin = new System.Windows.Forms.Padding(2);
             this.iconUserRegistration.Name = "iconUserRegistration";
-            this.iconUserRegistration.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconUserRegistration.Size = new System.Drawing.Size(450, 90);
+            this.iconUserRegistration.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconUserRegistration.Size = new System.Drawing.Size(338, 73);
             this.iconUserRegistration.TabIndex = 7;
             this.iconUserRegistration.Text = "User Registration";
             this.iconUserRegistration.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,16 +192,17 @@ namespace BBMS
             this.iconPendingReq.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconPendingReq.FlatAppearance.BorderSize = 0;
             this.iconPendingReq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconPendingReq.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconPendingReq.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconPendingReq.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconPendingReq.IconChar = FontAwesome.Sharp.IconChar.RedoAlt;
             this.iconPendingReq.IconColor = System.Drawing.Color.White;
             this.iconPendingReq.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPendingReq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconPendingReq.Location = new System.Drawing.Point(0, 617);
+            this.iconPendingReq.Location = new System.Drawing.Point(0, 501);
+            this.iconPendingReq.Margin = new System.Windows.Forms.Padding(2);
             this.iconPendingReq.Name = "iconPendingReq";
-            this.iconPendingReq.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconPendingReq.Size = new System.Drawing.Size(450, 90);
+            this.iconPendingReq.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconPendingReq.Size = new System.Drawing.Size(338, 73);
             this.iconPendingReq.TabIndex = 6;
             this.iconPendingReq.Text = "Pending Requests";
             this.iconPendingReq.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -207,16 +216,17 @@ namespace BBMS
             this.iconDonations.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconDonations.FlatAppearance.BorderSize = 0;
             this.iconDonations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconDonations.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconDonations.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconDonations.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconDonations.IconChar = FontAwesome.Sharp.IconChar.HandHoldingMedical;
             this.iconDonations.IconColor = System.Drawing.Color.White;
             this.iconDonations.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconDonations.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconDonations.Location = new System.Drawing.Point(0, 527);
+            this.iconDonations.Location = new System.Drawing.Point(0, 428);
+            this.iconDonations.Margin = new System.Windows.Forms.Padding(2);
             this.iconDonations.Name = "iconDonations";
-            this.iconDonations.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconDonations.Size = new System.Drawing.Size(450, 90);
+            this.iconDonations.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconDonations.Size = new System.Drawing.Size(338, 73);
             this.iconDonations.TabIndex = 5;
             this.iconDonations.Text = "Donations";
             this.iconDonations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -230,16 +240,17 @@ namespace BBMS
             this.iconLogout.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.iconLogout.FlatAppearance.BorderSize = 0;
             this.iconLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconLogout.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconLogout.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconLogout.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             this.iconLogout.IconColor = System.Drawing.Color.White;
             this.iconLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconLogout.Location = new System.Drawing.Point(0, 990);
+            this.iconLogout.Location = new System.Drawing.Point(0, 567);
+            this.iconLogout.Margin = new System.Windows.Forms.Padding(2);
             this.iconLogout.Name = "iconLogout";
-            this.iconLogout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconLogout.Size = new System.Drawing.Size(450, 90);
+            this.iconLogout.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconLogout.Size = new System.Drawing.Size(338, 73);
             this.iconLogout.TabIndex = 4;
             this.iconLogout.Text = "Log Out";
             this.iconLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -252,16 +263,17 @@ namespace BBMS
             this.iconDonors.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconDonors.FlatAppearance.BorderSize = 0;
             this.iconDonors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconDonors.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconDonors.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconDonors.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconDonors.IconChar = FontAwesome.Sharp.IconChar.HospitalUser;
             this.iconDonors.IconColor = System.Drawing.Color.White;
             this.iconDonors.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconDonors.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconDonors.Location = new System.Drawing.Point(0, 437);
+            this.iconDonors.Location = new System.Drawing.Point(0, 355);
+            this.iconDonors.Margin = new System.Windows.Forms.Padding(2);
             this.iconDonors.Name = "iconDonors";
-            this.iconDonors.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconDonors.Size = new System.Drawing.Size(450, 90);
+            this.iconDonors.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconDonors.Size = new System.Drawing.Size(338, 73);
             this.iconDonors.TabIndex = 3;
             this.iconDonors.Text = "Donors";
             this.iconDonors.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -275,16 +287,17 @@ namespace BBMS
             this.iconDonorRegistration.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconDonorRegistration.FlatAppearance.BorderSize = 0;
             this.iconDonorRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconDonorRegistration.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconDonorRegistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconDonorRegistration.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconDonorRegistration.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
             this.iconDonorRegistration.IconColor = System.Drawing.Color.White;
             this.iconDonorRegistration.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconDonorRegistration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconDonorRegistration.Location = new System.Drawing.Point(0, 347);
+            this.iconDonorRegistration.Location = new System.Drawing.Point(0, 282);
+            this.iconDonorRegistration.Margin = new System.Windows.Forms.Padding(2);
             this.iconDonorRegistration.Name = "iconDonorRegistration";
-            this.iconDonorRegistration.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconDonorRegistration.Size = new System.Drawing.Size(450, 90);
+            this.iconDonorRegistration.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconDonorRegistration.Size = new System.Drawing.Size(338, 73);
             this.iconDonorRegistration.TabIndex = 2;
             this.iconDonorRegistration.Text = "Donor Registration";
             this.iconDonorRegistration.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -299,17 +312,17 @@ namespace BBMS
             this.iconBloodStock.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconBloodStock.FlatAppearance.BorderSize = 0;
             this.iconBloodStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconBloodStock.Font = new System.Drawing.Font("Poppins SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconBloodStock.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconBloodStock.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.iconBloodStock.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
             this.iconBloodStock.IconColor = System.Drawing.Color.White;
             this.iconBloodStock.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconBloodStock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconBloodStock.Location = new System.Drawing.Point(0, 257);
-            this.iconBloodStock.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.iconBloodStock.Location = new System.Drawing.Point(0, 209);
+            this.iconBloodStock.Margin = new System.Windows.Forms.Padding(2, 16, 2, 2);
             this.iconBloodStock.Name = "iconBloodStock";
-            this.iconBloodStock.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconBloodStock.Size = new System.Drawing.Size(450, 90);
+            this.iconBloodStock.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.iconBloodStock.Size = new System.Drawing.Size(338, 73);
             this.iconBloodStock.TabIndex = 1;
             this.iconBloodStock.Text = "Blood Stock";
             this.iconBloodStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -324,8 +337,9 @@ namespace BBMS
             this.panel2.Controls.Add(this.IconRestLogo);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(450, 257);
+            this.panel2.Size = new System.Drawing.Size(338, 209);
             this.panel2.TabIndex = 0;
             // 
             // IconRestLogo
@@ -337,25 +351,27 @@ namespace BBMS
             this.IconRestLogo.IconChar = FontAwesome.Sharp.IconChar.None;
             this.IconRestLogo.IconColor = System.Drawing.Color.Transparent;
             this.IconRestLogo.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.IconRestLogo.IconSize = 222;
+            this.IconRestLogo.IconSize = 180;
             this.IconRestLogo.InitialImage = null;
-            this.IconRestLogo.Location = new System.Drawing.Point(78, 12);
+            this.IconRestLogo.Location = new System.Drawing.Point(58, 10);
+            this.IconRestLogo.Margin = new System.Windows.Forms.Padding(2);
             this.IconRestLogo.Name = "IconRestLogo";
-            this.IconRestLogo.Size = new System.Drawing.Size(267, 222);
+            this.IconRestLogo.Size = new System.Drawing.Size(200, 180);
             this.IconRestLogo.TabIndex = 0;
             this.IconRestLogo.TabStop = false;
             this.IconRestLogo.Click += new System.EventHandler(this.IconRestLogo_Click);
             // 
             // MainDash
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.ClientSize = new System.Drawing.Size(1040, 640);
             this.Controls.Add(this.desktoppanel);
             this.Controls.Add(this.TitleBar);
             this.Controls.Add(this.panelMenue);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainDash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
