@@ -179,7 +179,7 @@ namespace BBMS.ChildForms
             this.dateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker.Location = new System.Drawing.Point(116, 644);
-            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker.MinimumSize = new System.Drawing.Size(333, 31);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(333, 31);
@@ -193,7 +193,7 @@ namespace BBMS.ChildForms
             this.radioMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.radioMale.Location = new System.Drawing.Point(929, 353);
-            this.radioMale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioMale.Margin = new System.Windows.Forms.Padding(4);
             this.radioMale.Name = "radioMale";
             this.radioMale.Size = new System.Drawing.Size(72, 28);
             this.radioMale.TabIndex = 14;
@@ -207,7 +207,7 @@ namespace BBMS.ChildForms
             this.radioFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioFemale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.radioFemale.Location = new System.Drawing.Point(1076, 354);
-            this.radioFemale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioFemale.Margin = new System.Windows.Forms.Padding(4);
             this.radioFemale.Name = "radioFemale";
             this.radioFemale.Size = new System.Drawing.Size(95, 28);
             this.radioFemale.TabIndex = 15;
@@ -222,7 +222,7 @@ namespace BBMS.ChildForms
             this.AddressLine1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddressLine1.ForeColor = System.Drawing.Color.White;
             this.AddressLine1.Location = new System.Drawing.Point(919, 474);
-            this.AddressLine1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddressLine1.Margin = new System.Windows.Forms.Padding(4);
             this.AddressLine1.Multiline = true;
             this.AddressLine1.Name = "AddressLine1";
             this.AddressLine1.Size = new System.Drawing.Size(333, 37);
@@ -236,7 +236,7 @@ namespace BBMS.ChildForms
             this.AddressLine2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddressLine2.ForeColor = System.Drawing.Color.White;
             this.AddressLine2.Location = new System.Drawing.Point(919, 519);
-            this.AddressLine2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddressLine2.Margin = new System.Windows.Forms.Padding(4);
             this.AddressLine2.Multiline = true;
             this.AddressLine2.Name = "AddressLine2";
             this.AddressLine2.Size = new System.Drawing.Size(333, 37);
@@ -249,7 +249,7 @@ namespace BBMS.ChildForms
             this.street.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.street.ForeColor = System.Drawing.Color.White;
             this.street.Location = new System.Drawing.Point(919, 566);
-            this.street.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.street.Margin = new System.Windows.Forms.Padding(4);
             this.street.Multiline = true;
             this.street.Name = "street";
             this.street.Size = new System.Drawing.Size(333, 37);
@@ -262,7 +262,7 @@ namespace BBMS.ChildForms
             this.city.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.city.ForeColor = System.Drawing.Color.White;
             this.city.Location = new System.Drawing.Point(919, 611);
-            this.city.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.city.Margin = new System.Windows.Forms.Padding(4);
             this.city.Multiline = true;
             this.city.Name = "city";
             this.city.Size = new System.Drawing.Size(333, 37);
@@ -273,7 +273,7 @@ namespace BBMS.ChildForms
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panel1.Location = new System.Drawing.Point(116, 365);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(267, 2);
             this.panel1.TabIndex = 21;
@@ -284,10 +284,10 @@ namespace BBMS.ChildForms
             this.txtNIC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNIC.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtNIC.Location = new System.Drawing.Point(112, 326);
-            this.txtNIC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNIC.Margin = new System.Windows.Forms.Padding(4);
             this.txtNIC.MinimumSize = new System.Drawing.Size(333, 31);
             this.txtNIC.Name = "txtNIC";
-            this.txtNIC.Size = new System.Drawing.Size(333, 31);
+            this.txtNIC.Size = new System.Drawing.Size(333, 23);
             this.txtNIC.TabIndex = 20;
             this.txtNIC.TextChanged += new System.EventHandler(this.txtNIC_TextChanged_1);
             // 
@@ -296,7 +296,7 @@ namespace BBMS.ChildForms
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panel3.Location = new System.Drawing.Point(116, 534);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(267, 2);
             this.panel3.TabIndex = 22;
@@ -308,7 +308,7 @@ namespace BBMS.ChildForms
             this.maskTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maskTel.ForeColor = System.Drawing.Color.Black;
             this.maskTel.Location = new System.Drawing.Point(116, 510);
-            this.maskTel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.maskTel.Margin = new System.Windows.Forms.Padding(4);
             this.maskTel.Mask = "(999) 000-0000";
             this.maskTel.MinimumSize = new System.Drawing.Size(335, 31);
             this.maskTel.Name = "maskTel";
@@ -320,7 +320,7 @@ namespace BBMS.ChildForms
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panel2.Location = new System.Drawing.Point(116, 179);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(267, 2);
             this.panel2.TabIndex = 24;
@@ -332,10 +332,10 @@ namespace BBMS.ChildForms
             this.txtFname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFname.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtFname.Location = new System.Drawing.Point(113, 150);
-            this.txtFname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFname.Margin = new System.Windows.Forms.Padding(4);
             this.txtFname.MinimumSize = new System.Drawing.Size(333, 31);
             this.txtFname.Name = "txtFname";
-            this.txtFname.Size = new System.Drawing.Size(333, 31);
+            this.txtFname.Size = new System.Drawing.Size(333, 23);
             this.txtFname.TabIndex = 25;
             // 
             // panel4
@@ -343,7 +343,7 @@ namespace BBMS.ChildForms
             this.panel4.BackColor = System.Drawing.Color.Black;
             this.panel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panel4.Location = new System.Drawing.Point(919, 179);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(267, 2);
             this.panel4.TabIndex = 26;
@@ -355,10 +355,10 @@ namespace BBMS.ChildForms
             this.textLname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textLname.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textLname.Location = new System.Drawing.Point(919, 154);
-            this.textLname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textLname.Margin = new System.Windows.Forms.Padding(4);
             this.textLname.MinimumSize = new System.Drawing.Size(333, 31);
             this.textLname.Name = "textLname";
-            this.textLname.Size = new System.Drawing.Size(333, 31);
+            this.textLname.Size = new System.Drawing.Size(333, 23);
             this.textLname.TabIndex = 27;
             // 
             // panel5
@@ -366,7 +366,7 @@ namespace BBMS.ChildForms
             this.panel5.BackColor = System.Drawing.Color.Black;
             this.panel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panel5.Location = new System.Drawing.Point(112, 786);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(267, 2);
             this.panel5.TabIndex = 29;
@@ -377,7 +377,7 @@ namespace BBMS.ChildForms
             this.txtAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAge.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtAge.Location = new System.Drawing.Point(113, 746);
-            this.txtAge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAge.Margin = new System.Windows.Forms.Padding(4);
             this.txtAge.MinimumSize = new System.Drawing.Size(333, 31);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(333, 23);
@@ -397,7 +397,7 @@ namespace BBMS.ChildForms
             "O+",
             "O-"});
             this.DropDownBlood.Location = new System.Drawing.Point(917, 752);
-            this.DropDownBlood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DropDownBlood.Margin = new System.Windows.Forms.Padding(4);
             this.DropDownBlood.MinimumSize = new System.Drawing.Size(219, 0);
             this.DropDownBlood.Name = "DropDownBlood";
             this.DropDownBlood.Size = new System.Drawing.Size(265, 32);
@@ -409,8 +409,8 @@ namespace BBMS.ChildForms
             this.addDonor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addDonor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addDonor.ForeColor = System.Drawing.Color.Red;
-            this.addDonor.Location = new System.Drawing.Point(1219, 736);
-            this.addDonor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addDonor.Location = new System.Drawing.Point(1282, 884);
+            this.addDonor.Margin = new System.Windows.Forms.Padding(4);
             this.addDonor.Name = "addDonor";
             this.addDonor.Size = new System.Drawing.Size(165, 50);
             this.addDonor.TabIndex = 31;
