@@ -136,6 +136,7 @@ namespace BBMS
             this.login_username.TabIndex = 7;
             this.login_username.Text = "User Name";
             this.login_username.Enter += new System.EventHandler(this.textBox1_Enter);
+            this.login_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.login_username_KeyPress);
             this.login_username.Leave += new System.EventHandler(this.login_username_Leave);
             // 
             // login_password
@@ -150,6 +151,7 @@ namespace BBMS
             this.login_password.TabIndex = 8;
             this.login_password.Text = "Password";
             this.login_password.Enter += new System.EventHandler(this.login_password_Enter);
+            this.login_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.login_password_KeyPress);
             this.login_password.Leave += new System.EventHandler(this.login_password_Leave);
             // 
             // lbl_forgot
@@ -186,6 +188,7 @@ namespace BBMS
             this.btn_login.TabIndex = 11;
             this.btn_login.Text = "Log in";
             this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btn_login_MouseClick);
             this.btn_login.MouseEnter += new System.EventHandler(this.btn_login_MouseEnter);
             this.btn_login.MouseLeave += new System.EventHandler(this.btn_login_MouseLeave);
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace BBMS
         public Login()
         {
             InitializeComponent();
+            
         }
         bool isMouseDown = false;
         private void button1_Click(object sender, EventArgs e)
@@ -67,6 +69,7 @@ namespace BBMS
             {
                 login_username.ForeColor = Color.White;
             }
+            
             panel1.BackColor = Color.White;
             pictureBox2.Image = null;
             pictureBox2.Image = BBMS.Properties.Resources.user_white;
@@ -78,9 +81,10 @@ namespace BBMS
             if (login_password.Text == "Password")
             {
                 login_password.Text = "";
-                
+                login_password.PasswordChar = '*';
 
             }
+            
             login_password.ForeColor = Color.Red;
             panel2.BackColor = Color.Red;
             pictureBox3.Image = null;
@@ -93,6 +97,8 @@ namespace BBMS
             if(login_password.Text == "")
             {
                 login_password.Text = "Password";
+                login_password.PasswordChar = '\0';
+
                 login_password.ForeColor = Color.Gray;
 
             }
@@ -121,9 +127,7 @@ namespace BBMS
             btn_login.BackColor = Color.Transparent;
             btn_login.ForeColor = Color.White;
 
-           MainDash obj1 = new MainDash();
-            obj1.Show();
-            this.Hide();
+           
         }
 
         private void btn_login_MouseEnter(object sender, EventArgs e)
@@ -140,6 +144,57 @@ namespace BBMS
         private void btn_register_MouseLeave(object sender, EventArgs e)
         {
             btn_register.BackColor = Color.Transparent;
+        }
+
+        private void btn_login_MouseClick(object sender, MouseEventArgs e)
+        {
+            string Username = login_username.Text;
+            string password = Encryption.passwordEncypt(login_password.Text);
+            string query = "SELECT  `EmpUserName`, `EmpPw`, `Register as` FROM `emptbl` ";
+            try
+            {
+                MySqlDataReader reader = DbConnection.Read(query);
+
+                while (reader.Read())
+                {
+                    if (reader["EmpUserName"].ToString() == Username && reader["EmpPw"].ToString()==password)
+                    {
+                        if(reader["Register as"].ToString() == "Admin")
+                        {
+                            MainDash obj1 = new MainDash();
+                            obj1.Show();
+                            this.Hide();
+                        }
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("invalid username and password");
+                    }
+                
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
+        }
+
+        private void login_username_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsLetterOrDigit(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void login_password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsLetterOrDigit(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
