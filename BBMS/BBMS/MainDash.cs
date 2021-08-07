@@ -23,7 +23,9 @@ namespace BBMS
         public MainDash()
         {
             InitializeComponent();
+            OpenChildForm(new ChildForms.Dashboard());
             leftBorderBtn = new Panel();
+
             leftBorderBtn.Size = new Size(10, 70);
             panelMenue.Controls.Add(leftBorderBtn);
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
@@ -46,7 +48,7 @@ namespace BBMS
             {
                 DisableButton();
                 currentBtn = (IconButton)sendBtn;
-                currentBtn.BackColor = Color.FromArgb(37, 36, 81);
+                currentBtn.BackColor = Color.Transparent;
                 currentBtn.ForeColor = color;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = color;
@@ -156,6 +158,10 @@ namespace BBMS
             iconcurrent.IconChar = IconChar.Hospital;
             iconcurrent.IconColor = Color.Red;
             TitleText.Text = "Dashboard";
+            OpenChildForm(new ChildForms.Dashboard());
+
+
+
         }
 
         private void iconclose_MouseEnter(object sender, EventArgs e)
@@ -171,6 +177,17 @@ namespace BBMS
         private void iconclose_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void iconBloodStock_MouseEnter(object sender, EventArgs e)
+        {
+            iconBloodStock.BackColor = Color.Transparent;
+
+        }
+
+        private void iconBloodStock_MouseLeave(object sender, EventArgs e)
+        {
+            
         }
     }
     

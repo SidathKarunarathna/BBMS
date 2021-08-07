@@ -16,5 +16,37 @@ namespace BBMS.ChildForms
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton1_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton1_MouseEnter(object sender, EventArgs e)
+        {
+            iconButton1.BackColor = Color.Red;
+            iconButton1.ForeColor = Color.White;
+        }
+
+        private void iconButton1_MouseLeave(object sender, EventArgs e)
+        {
+            iconButton1.BackColor = Color.White;
+            iconButton1.ForeColor = Color.Red;
+        }
     }
 }
