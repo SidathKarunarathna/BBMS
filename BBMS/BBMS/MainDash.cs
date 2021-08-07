@@ -80,7 +80,7 @@ namespace BBMS
             }
         }
 
-        private void OpenChildForm(Form childform)
+       private void OpenChildForm(Form childform)
         {
             if (currentchildform != null)
             {
@@ -96,7 +96,7 @@ namespace BBMS
             childform.Show();
             TitleText.Text = childform.Text;
         }
-
+     
         private void iconclose_Click(object sender, EventArgs e)
         {
             Application.Exit();

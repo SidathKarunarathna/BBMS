@@ -122,6 +122,12 @@
     <Compile Include="ChildForms\User Registrations.Designer.cs">
       <DependentUpon>User Registrations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hospitle\hospitleDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hospitle\hospitleDash.Designer.cs">
+      <DependentUpon>hospitleDash.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainDash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\User Registrations.resx">
       <DependentUpon>User Registrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hospitle\hospitleDash.resx">
+      <DependentUpon>hospitleDash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDash.resx">
       <DependentUpon>MainDash.cs</DependentUpon>
@@ -214,5 +223,6 @@
   <ItemGroup>
     <None Include="Resources\delete_48px.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
